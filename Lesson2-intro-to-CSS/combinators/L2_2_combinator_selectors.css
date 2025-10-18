@@ -35,12 +35,12 @@ body {
    - Add hover effect
 */
 
-.post-footer{
+.post-footer {
    font-style: normal;
    color: #67676767;
 }
 
-.post-footer{
+.post-footer {
    opacity: 0.8;
 }
 
@@ -55,7 +55,7 @@ body {
    Hint: Use child selector (>)
 */
 
-.recent-posts > article {
+.recent-posts>article {
    border-bottom: 1px solid #ecf0f1;
    padding-bottom: 15px;
    margin-bottom: 15px;
@@ -68,8 +68,8 @@ body {
 */
 
 .widget > ul {
-   color:red;
-   background-color: #333;
+   color: red;
+   font-style: italic;
 }
 
 
@@ -83,7 +83,7 @@ body {
    Hint: Use adjacent sibling selector (+)
 */
 
-.recent-post h3 + p {
+.recent-posts >  h3 + p {
    font-style: italic;
    color: #ce00f7;
 }
@@ -103,9 +103,8 @@ body {
 */
 
 .article-content > p {
-   font-style: normal;
-   font-size: medium;
-   background: #e2fb06;
+   font-style: bold;
+   font-size: 20px;
 }
 
 /* ==========================================
